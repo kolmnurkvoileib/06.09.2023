@@ -1,0 +1,75 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+*{
+    
+}
+
+ul {
+  list-style-type: none;
+}
+
+body,
+html,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h1 {
+  font-size: 52px;
+  @media (max-width: $screen-md-min) {
+    font-size: 48px;
+  }
+  @media (max-width: $screen-sm-min) {
+    font-size: 34px;
+  }
+}
+
+h2 {
+  font-size: 42px;
+  @media (max-width: $screen-md-min) {
+    font-size: 38px;
+  }
+  @media (max-width: $screen-sm-min) {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  @media (max-width: $screen-md-min) {
+    font-size: 28px;
+  }
+  @media (max-width: $screen-sm-min) {
+    font-size: 22px;
+  }
+}
+
+h4 {
+  font-size: 22px;
+  @media (max-width: $screen-md-min) {
+    font-size: 18px;
+  }
+}
+
+p,
+li {
+  font-size: 20px;
+  @media (max-width: $screen-md-min) {
+    font-size: 18px;
+  }
+}
+
+a {
+  font-size: 18px;
+}
