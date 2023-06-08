@@ -28,6 +28,16 @@ function my_acf_init_block_types()
             'keywords'          => array('headerbanner'),
         ));
 
+         acf_register_block_type(array(
+            'name'              => 'repeaterBlock',
+            'title'             => ('repeaterBlock'),
+            'description'       => __('repeaterBlock.'),
+            'render_template'   => 'acf-blocks/repeaterBlock.php',
+            'category'          => 'mike',
+            'icon'              => 'email',
+            'keywords'          => array('repeaterBlock'),
+        ));
+
     }
 }
 
